@@ -1,0 +1,40 @@
+/* CSS file: styles.css */
+
+.panel.color2-alt {
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.panel.color2-alt .span-4-5 {
+    padding: 15px; /* Optional: additional padding for the inner div */
+}
+
+.panel.color2-alt h3.major {
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+.panel.color2-alt .fields {
+    margin-bottom: 20px; /* Space below the fields */
+}
+
+.panel.color2-alt .actions {
+    margin-top: 15px; /* Space above the actions */
+}
+
+/* Optional: Add some padding to form elements */
+.panel.color2-alt .field input,
+.panel.color2-alt .field select,
+.panel.color2-alt .field textarea {
+    padding: 10px; /* Space inside input fields */
+    width: 100%; /* Ensure fields take full width */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+/* Optional: Style the submit button */
+.panel.color2-alt .actions .primary {
+    padding: 10px 20px; /* Padding for the button */
+}
+
+/* Ensure the text color for the quote result is set to black */
+#quote-result {
+    color: black;
+}
